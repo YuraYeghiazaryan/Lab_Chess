@@ -1,11 +1,18 @@
 # Lab_Chess
-main և exe ֆայլերը երկու համակարգիչներ միմյանց կապելու համար են(socket-ներով):Մնացածը իրականացնում են շախմատը:
-exe.py ֆայլը հանդիսանում է հիմնական ֆայլը(որով պետք է աշխատացնել պռոեկտը):
-Ծրագիրը աշխատացնելիս բացվում է խաղի պատուհանը:Խաղը միշտ սկսվում է նույն ձևով(սպիտակ խաղաքարերը ներքևում, և առաջինը խաղալու հնարավորությունը սպիտակներինն է):Խաղալը թույլատրվում է հերթականությամբ,այսինքն մեկ մի գույնը, մեկ մյուս գույնը:Որևէ խաղաքար ընտրելիս, դրա դաշտը կարմրում է:Խաղաքար ընտրելուց հետո,անհրաժեշտ է ընտրել այն վանդակը,որտեղ ցանկանում ենք տեղափոխել խաղաքարը:Եթե ընտրված վանդակը չի համապատասխանում շախմատի քայլերի կանոներին, ապա ընտրված խաղաքարը չեղարկվում է:Շախ-ի հայտարարման ժամանկ,վիզուալ բան տեղի չի ունենում,սակայն հետագա քայլերը համապատասխանում են բոլոր կանոններին:Եթե որևէ խաղացողին հայտարարվում է մատ, ապա այլևս հնարավոր չի լինում շարունակել խաղը:
 
-pieces.py ֆայլում իրականացված է խաղաքարերի class-ները:Հիմնակն class-ը Pieces class-ն է, որն էլ ժառանգում են մնացած բոլոր խաղաքարերի class-ները:
-Ամեն խաղաքար ունի իր ճիշտ քայլելու լոգիկան:
-config.py ֆայլում առկա են բոլոր այն տվյալները,որոնք անհրաժեշտ են ծրագրի ճիշտ և օպտիմալ աշխատանքին:
-Իսկ chess_items.py ֆայլում համակարգված է ամբողջ պռոեկտի աշխատանքը:
+Welcome to my GitHub repository for the Chess project! 
+This project allows users to play a game of chess in a graphical interface.
 
-Պռոեկտում առկա են մի քանի բացթողումներ:Հնարավոր չէ՝ անել ռակիռովկա և երբ զինվորը հասնում է վերջին վանդակին, դրան այլ խաղաքարի հետ փոխելը:
+To run the project, simply execute the exe.py file. 
+The game window will open and the game will always start
+with the white pieces at the bottom and white making the first move. 
+Each player must make their moves in order, with one color playing at a time.
+When a piece is selected, its field turns red and the player must then select 
+a square to move the piece to. If the selected square does not correspond to 
+the rules of the chess moves, the selected piece is canceled.
+
+The pieces in the game are implemented as classes in the pieces.py file, 
+with each piece having its own logic to move correctly. 
+The config.py file contains all the necessary data for the optimal operation of the program, 
+while the chess_items.py file coordinates the work of the entire project.
+
